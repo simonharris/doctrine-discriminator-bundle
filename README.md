@@ -1,15 +1,15 @@
 LevelabDoctrineDiscriminatorBundle
 =============================
 
-Doctrine discriminator map extension bundle, which allows to move mapping from superclass to subclasses easily
+Doctrine discriminator map extension bundle, which allows to move mapping from superclass to subclasses easily.
 
 Usage
 ========
 * **Import annotation classes**
 
 ```php
-use Levelab\Doctrine\DiscriminatorBundle\Annotation\DiscriminatorParent
-use Levelab\Doctrine\DiscriminatorBundle\Annotation\DiscriminatorEntry
+use Levelab\Doctrine\DiscriminatorBundle\Annotation\DiscriminatorParent;
+use Levelab\Doctrine\DiscriminatorBundle\Annotation\DiscriminatorEntry;
 ```
 
 * **Then turn this...**
